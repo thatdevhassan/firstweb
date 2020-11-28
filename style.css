@@ -2,10 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
+:root{
+    --primary-color: 
+}
+
 
 body{
     font-family: "Roboto Slab","Open Sans";
     text-align:center;
 }
 
-
+/* #maiking the image responsive */
+.responsive {
+    width: 100%;
+    height: auto;
+  }
