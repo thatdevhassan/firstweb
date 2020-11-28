@@ -3,14 +3,46 @@
 
 
 :root{
-    --primary-color: 
+    --primary-color1:#10B981; 
+    --primary-color2: #34D399;
+    --primary-color3: #6EE7B7;
+    --primary-color4:#A7F3D0;
 }
 
 
 body{
-    font-family: "Roboto Slab","Open Sans";
-    text-align:center;
+    font-family: "Roboto Slab",
+    "Open Sans";
 }
+
+/* designing a navbar */
+
+.navigation{
+    /* border: solid; */
+    background-color:var(--primary-color3);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 0.2rem 1rem;
+}
+
+.navigation .nav-links{
+
+    display:inline;
+    text-decoration: none;
+    margin: 0.5rem;
+ }
+
+
+.navigation .nav-a{
+
+
+    text-decoration: none;
+
+}
+
+
+
+
 
 /* #maiking the image responsive */
 .responsive {
