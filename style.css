@@ -17,7 +17,12 @@
 body{
     font-family: "Roboto Slab",
     "Open Sans";
+    max-width: 600px;
+    margin: auto;
+
+
 }
+
 
 /* designing a navbar */
 
@@ -69,3 +74,21 @@ body{
 }
 /* designing tools */
 
+
+
+
+
+
+/* desiging footer */
+
+.cl-footer{
+    background-color:var(--primary-color2);
+    padding: 0.5rem  0.5rem;
+    border-end-end-radius: 1rem;
+}
+
+.foot-li{
+    display:inline;
+    text-decoration: none;
+    padding: 0.5rem;
+}
