@@ -7,6 +7,10 @@
     --primary-color2: #34D399;
     --primary-color3: #6EE7B7;
     --primary-color4:#A7F3D0;
+    --primary-color5: #D1FAE5;
+    --primary-color6: #ECFDF5;
+
+
 }
 
 
@@ -45,4 +49,23 @@ body{
 .responsive {
     width: 100%;
     height: auto;
+    padding-top: 1rem;
   }
+
+
+
+
+/* designing technologies section */
+
+.technologies{
+    background-color:var(--primary-color5);
+    padding: 1rem 1rem;
+
+}
+
+
+.technologies .tech-list{
+    padding: 0.5rem;
+}
+/* designing tools */
+
