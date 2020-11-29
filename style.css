@@ -39,7 +39,11 @@ body{
     display:inline;
     text-decoration: none;
     margin: 0.5rem;
+
  }
+.navigation .nav-a{
+    color:black;
+}
 
 
 .navigation .nav-a{
@@ -76,19 +80,18 @@ body{
 
 
 
-
-
-
 /* desiging footer */
 
 .cl-footer{
     background-color:var(--primary-color2);
     padding: 0.5rem  0.5rem;
     border-end-end-radius: 1rem;
+    text-align:center;
+
 }
 
 .foot-li{
     display:inline;
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
