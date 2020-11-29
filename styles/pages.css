@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 :root{
     --primary-color1:#10B981; 
@@ -54,4 +54,10 @@ text-align:left;
 
 hr{
     margin: 2rem 0rem;
+}
+
+span{
+    color:var(--primary-color1);
+    font-family: Open Sans;
+    font-size: 20px;
 }
